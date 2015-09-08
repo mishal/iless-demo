@@ -1,0 +1,72 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "69f5a6806f0425e7459c4202e1a152bc",
+    "packages": [
+        {
+            "name": "mishal/iless",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mishal/iless.git",
+                "reference": "34dc8602fc80072ffa587806c9674343ac9dd47a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mishal/iless/zipball/34dc8602fc80072ffa587806c9674343ac9dd47a",
+                "reference": "34dc8602fc80072ffa587806c9674343ac9dd47a",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "bin": [
+                "bin/iless"
+            ],
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0.x-dev",
+                    "dev-develop": "2.1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "ILess\\": "lib/ILess"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "ILess contributors",
+                    "homepage": "https://github.com/mishal/iless/wiki/Contributors"
+                }
+            ],
+            "description": "Less.js port to PHP",
+            "homepage": "http://github.com/mishal/iless",
+            "keywords": [
+                "compiler",
+                "css",
+                "less",
+                "less.js",
+                "lesscss",
+                "parser"
+            ],
+            "time": "2015-09-08 13:33:26"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

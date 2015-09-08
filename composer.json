@@ -1,0 +1,6 @@
+{
+  "minimum-stability": "dev",
+  "require":  {
+    "mishal/iless": "2.0.*"
+  }  
+}
