@@ -1,0 +1,26 @@
+// This is a demonstration of ILess
+// Type here Less code and click the compile button
+
+@import (optional) "import.less";
+
+@web-font-path: "http://fonts.googleapis.com/css?family=Lato:400,700,400italic";
+@link-color:    blue;
+
+.web-font(@path) {
+  @import url("@{path}");
+}
+
+.web-font(@web-font-path);
+
+a {
+  color: @link-color;
+  &:hover {
+    color: desaturate(@link-color);
+  }
+}
+
+body {
+  background: red;
+  color: dodgerblue;
+  border-color: #00bc8c;
+}
