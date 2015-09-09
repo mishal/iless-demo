@@ -119,14 +119,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         </p>
     </form>
 
-    <section class="help">
-        <ul>
-            <li>
-                <a href="http://lesscss.org/features/">Less features reference</a>
-            </li>
-        </ul>
-    </section>
-
     <section class="bug-report">
         <h2>Missing something or found a bug?</h2>
 
