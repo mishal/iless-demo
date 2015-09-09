@@ -1,13 +1,13 @@
-@import url("http://fonts.googleapis.com/css?family=Lato:400,700,400italic");
-a {
-  color: blue;
+i {
+  /* Revelation 20:15:
+     And whosoever was not found written in the book
+     of life was cast into the lake of fire.
+    */
+  content: "I will be cast out into the lake of fire";
 }
-a:hover {
-  color: #808080;
+i:before {
+  content: "You can be saved right now!";
+  /* http://www.turnfromyouridols.com/SALVATION.html */
+  font-weight: bold;
 }
-body {
-  background: red;
-  color: dodgerblue;
-  border-color: #00bc8c;
-}
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjpudWxsLCJzb3VyY2VzIjpbIkQ6XC9kYXRhXC9wcm9qZWN0c1wvaWxlc3NfZGVtb1wvY3NzXC9kZWZhdWx0Lmxlc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IllBU2M7QUFLZDtFQUNFLFdBQUE7O0FBQ0EsQ0FBQztFQUNDLGNBQUE7O0FBSUo7RUFDRSxlQUFBO0VBQ0EsaUJBQUE7RUFDQSxxQkFBQSJ9 */
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjpudWxsLCJzb3VyY2VzIjpbIkQ6XC9kYXRhXC9wcm9qZWN0c1wvaWxlc3NfZGVtb1wvY3NzXC9kZWZhdWx0Lmxlc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBT0U7Ozs7O0VBVUUsU0FBUywwQ0FBVDs7QUFMQSxDQUFDO0VBQ0MsU0FBUyw2QkFBVDs7RUFFQSxpQkFBQSJ9 */

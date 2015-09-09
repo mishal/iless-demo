@@ -1,26 +1,32 @@
 // This is a demonstration of ILess
 // Type here Less code and click the compile button
 
-@import (optional) "import.less";
+// are u saved? Do you know Jesus?
+@i-am-saved: false;
 
-@web-font-path: "http://fonts.googleapis.com/css?family=Lato:400,700,400italic";
-@link-color:    blue;
-
-.web-font(@path) {
-  @import url("@{path}");
-}
-
-.web-font(@web-font-path);
-
-a {
-  color: @link-color;
-  &:hover {
-    color: desaturate(@link-color);
+.my-future() when (@i-am-saved = false) {
+  i {
+    /* Revelation 20:15:
+     And whosoever was not found written in the book
+     of life was cast into the lake of fire.
+    */
+    &:before {
+      content: "You can be saved right now!";
+      /* http://www.turnfromyouridols.com/SALVATION.html */
+      font-weight: bold;
+    }
+    content: "I will be cast out into the lake of fire";
   }
 }
 
-body {
-  background: red;
-  color: dodgerblue;
-  border-color: #00bc8c;
+.my-future() when (@i-am-saved = true) {
+  i {
+    content: "I will live forever with God";
+  }
 }
+
+.jesus-will-come-back-for-his-people-or-i-die-before() {
+  .my-future();
+}
+
+.jesus-will-come-back-for-his-people-or-i-die-before();
