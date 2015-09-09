@@ -70,7 +70,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             <div id="navbar" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
                     <li><a href="https://github.com/mishal/iless">
-                            <i class="glyphicon glyphicon-folder-open"></i> &nbsp; Sources</a>
+                            <i class="glyphicon glyphicon-folder-open"></i> &nbsp; Source code</a>
                     </li>
                     <li><a href="https://github.com/mishal/iless/releases">
                             <i class="glyphicon glyphicon-download-alt"></i> Downloads</a>
