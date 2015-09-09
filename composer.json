@@ -1,5 +1,5 @@
 {
-  "minimum-stability": "dev",
+  "minimum-stability": "stable",
   "require":  {
     "mishal/iless": "2.0.*"
   }  
