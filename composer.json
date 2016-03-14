@@ -1,6 +1,6 @@
 {
   "minimum-stability": "stable",
   "require":  {
-    "mishal/iless": "2.0.*"
+    "mishal/iless": "~2"
   }  
 }

@@ -4,21 +4,21 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "0051a70f6353609dd43551b5d96e58ba",
-    "content-hash": "6b5965ba11bc7c4e6398828facb98b1a",
+    "hash": "4b8320973764205cb8a7620d0494dffb",
+    "content-hash": "18309a94e4fdc232ffb8eec26bc6eae1",
     "packages": [
         {
             "name": "mishal/iless",
-            "version": "2.0.8",
+            "version": "2.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mishal/iless.git",
-                "reference": "b01e1fd70dccba11bdf31abf17f8da2812f5e043"
+                "reference": "28322ce4d32d84db70167397304b33507dc259c2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mishal/iless/zipball/b01e1fd70dccba11bdf31abf17f8da2812f5e043",
-                "reference": "b01e1fd70dccba11bdf31abf17f8da2812f5e043",
+                "url": "https://api.github.com/repos/mishal/iless/zipball/28322ce4d32d84db70167397304b33507dc259c2",
+                "reference": "28322ce4d32d84db70167397304b33507dc259c2",
                 "shasum": ""
             },
             "require": {
@@ -58,7 +58,7 @@
                 "lesscss",
                 "parser"
             ],
-            "time": "2015-09-30 20:29:46"
+            "time": "2016-03-14 10:44:48"
         }
     ],
     "packages-dev": [],
