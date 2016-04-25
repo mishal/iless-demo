@@ -9,16 +9,16 @@
     "packages": [
         {
             "name": "mishal/iless",
-            "version": "2.1.1",
+            "version": "2.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mishal/iless.git",
-                "reference": "28322ce4d32d84db70167397304b33507dc259c2"
+                "reference": "d75af501ab0ca411efd041faa53e6652f1602553"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mishal/iless/zipball/28322ce4d32d84db70167397304b33507dc259c2",
-                "reference": "28322ce4d32d84db70167397304b33507dc259c2",
+                "url": "https://api.github.com/repos/mishal/iless/zipball/d75af501ab0ca411efd041faa53e6652f1602553",
+                "reference": "d75af501ab0ca411efd041faa53e6652f1602553",
                 "shasum": ""
             },
             "require": {
@@ -58,7 +58,7 @@
                 "lesscss",
                 "parser"
             ],
-            "time": "2016-03-14 10:44:48"
+            "time": "2016-04-25 07:03:37"
         }
     ],
     "packages-dev": [],
